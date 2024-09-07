@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Body from "./components/Body";
 
 const App = () => {
   return (
-    <div className='w-full h-10 font-extrabold bg-black text-white'>Hello</div>
-  )
-}
+    <div>
+      <Body />
+    </div>
+  );
+};
 
-export default App
+export default App;
